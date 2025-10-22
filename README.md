@@ -1,47 +1,65 @@
-Calculadora Console em Java
+# Calculadora Console em Java
 
-Esse é um projeto de uma calculadora simples feita em Java para rodar no terminal. Ela permite fazer operações de adição, subtração, multiplicação e divisão.
+Esse é um projeto de uma **calculadora simples** feita em Java para rodar no terminal. Ela permite fazer operações de adição, subtração, multiplicação e divisão.
 
-Como Funciona
+## Como Funciona
 
-O programa pede para você informar dois números.
+1. O programa pede para você informar dois números.
+2. Escolha uma operação matemática: `+`, `-`, `*`, `/`.
+3. O resultado é mostrado no console.
+4. O valor do resultado vira o novo valor inicial (como uma calculadora contínua).
+5. Para sair, digite `X`.
 
-Escolha uma operação matemática: +, -, *, /.
+## Como Rodar
 
-O resultado é mostrado e você pode continuar fazendo mais cálculos.
+### Pré-requisitos
 
-Para sair, digite X.
+- Ter o **Java** instalado no seu computador (Java 8 ou superior).
 
-Como Rodar
-Pré-requisitos
+### Passos
 
-Ter o Java instalado no seu computador.
-
-Passos
-
-Baixe ou clone o repositório:
-
-git clone https://github.com/seu-usuario/calculadora-console-java.git
-
-
-Entre na pasta do projeto:
+1. Clone ou baixe o projeto:
+   ```bash
+   git clone https://github.com/seu-usuario/calculadora-console-java.git
+   
+2. Acesse a pasta do projeto:
 
 cd calculadora-console-java
 
 
-Compile o código:
+3. Compile o código:
 
 javac CalculadoraConsole.java
 
 
-Execute o programa:
+4. Execute o programa:
 
 java CalculadoraConsole
 
-Exemplo de Uso
+### Exemplo de Uso
+╔════════════════════════════════╗
+║                              0 ║
+╠════════════════════════════════╣
+║ [7] [8] [9]   /                ║
+║ [4] [5] [6]   *                ║
+║ [1] [2] [3]   -                ║
+║ [0] [.] [=]   +                ║
+╚════════════════════════════════╝
+          (X para sair)
+
 Informe o primeiro número: 10
 Operação (+ - * / ou X para sair): +
 Informe o segundo número: 5
+
+╔════════════════════════════════╗
+║  10,00 + 5,00                  ║
+╠════════════════════════════════╣
+║ [7] [8] [9]   /                ║
+║ [4] [5] [6]   *                ║
+║ [1] [2] [3]   -                ║
+║ [0] [.] [=]   +                ║
+╚════════════════════════════════╝
+
 Resultado: 15,00
 
-Licença
+Pressione ENTER para continuar...
