@@ -35,31 +35,3 @@ javac CalculadoraConsole.java
 4. Execute o programa:
 
 java CalculadoraConsole
-
-### Exemplo de Uso
-╔════════════════════════════════╗
-║                              0 ║
-╠════════════════════════════════╣
-║ [7] [8] [9]   /                ║
-║ [4] [5] [6]   *                ║
-║ [1] [2] [3]   -                ║
-║ [0] [.] [=]   +                ║
-╚════════════════════════════════╝
-          (X para sair)
-
-Informe o primeiro número: 10
-Operação (+ - * / ou X para sair): +
-Informe o segundo número: 5
-
-╔════════════════════════════════╗
-║  10,00 + 5,00                  ║
-╠════════════════════════════════╣
-║ [7] [8] [9]   /                ║
-║ [4] [5] [6]   *                ║
-║ [1] [2] [3]   -                ║
-║ [0] [.] [=]   +                ║
-╚════════════════════════════════╝
-
-Resultado: 15,00
-
-Pressione ENTER para continuar...
